@@ -1,0 +1,20 @@
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Front face -->
+  <polygon points="45,45 195,45 195,145 45,145" stroke="black" fill="none"/>
+  
+  <!-- Back face -->
+  <polygon points="95,20 245,20 245,120 95,120" stroke="black" fill="none"/>
+  
+  <!-- Connect the corresponding points -->
+  <line x1="45" y1="45" x2="95" y2="20" stroke="black"/>
+  <line x1="195" y1="45" x2="245" y2="20" stroke="black"/>
+  
+  <line x1="195" y1="145" x2="245" y2="120" stroke="black"/>
+  <line x1="45" y1="145" x2="95" y2="120" stroke="black"/>
+  
+  <line x1="45" y1="45" x2="95" y2="20" stroke="black"/>
+  <line x1="195" y1="45" x2="245" y2="20" stroke="black"/>
+  
+  <line x1="45" y1="145" x2="95" y2="120" stroke="black"/>
+  <line x1="195" y1="145" x2="245" y2="120" stroke="black"/>
+</svg>

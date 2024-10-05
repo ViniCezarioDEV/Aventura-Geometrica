@@ -1,0 +1,80 @@
+.filtro-branco {
+    filter: brightness(100);
+}
+
+header nav a span {
+    color: white;
+}
+
+header {
+    border-bottom: #966919 1px solid;
+}
+
+header nav {
+    background-color: #6F4E37;
+}
+
+body {
+    background-color: #69605a;
+}
+
+.container {
+    margin-top: 3vh;
+}
+
+.footer-text {
+    margin-left: 1vw;
+    color: white;
+}
+
+footer {
+    background-color: #5C4033;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    bottom: 0;
+    position:static;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+body main form input {
+    max-width: 100%;
+}
+
+.rounded-border {
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.buttom {
+    border: 1px #966919 solid;
+    background-color: #7B3F00;
+    padding: 7px;
+    margin-top: 2px;
+}
+
+main img {
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#main-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
